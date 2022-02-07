@@ -1,0 +1,46 @@
+/* CSS Document */
+.eventoShowNo
+	{
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 70%;
+		margin-left: 3%;
+	}
+.eventoShowSi
+	{
+		font-size: 25px;
+		width: 70%;
+		margin-left: 3%;
+		display: flex;
+		flex-direction: column;
+	}
+.eventoShowSi div
+{
+	margin: 1%;
+}
+#eventoShow
+	{
+		
+	}
+#eventbuttons
+{
+	display: flex;
+	flex-direction: row;
+}
+#interactive_event
+{
+	background-color: #8FF087;
+	font-size: 19px;
+	border: 2px solid darkred;
+	min-width: 115px;
+	margin-left: 10px;
+}
+
+#interactive_event:hover
+	{
+		background-color: #37A82E;
+		cursor: default;
+		border: 3px solid darkred;
+	}

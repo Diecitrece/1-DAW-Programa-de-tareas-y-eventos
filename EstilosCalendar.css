@@ -1,0 +1,142 @@
+/* CSS Document */
+	h1
+	{
+		text-align: center;
+		color: darkred;
+	}
+	html, body
+	{
+		background-color: #8FF087;
+		height: 100%;
+	}
+	hr{
+        height: 3px;
+        background-color: darkred;
+        border: none;
+    }
+	#total
+	{
+		display: flex;
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+	#barra
+	{
+		display: flex;
+		height: 10%;
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: row;
+		align-items: flex-end;
+		background-color: #37A82E;
+	}
+	#barra_1, #barra_2, #barra_3
+	{
+		color: white;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		height: 100%;
+		width: 10%;
+		margin: 0 0;
+		flex-direction: row;
+		background-color: green;
+		border: 1px solid black;
+	}
+	#barra_1:hover, #barra_2:hover, #barra_3:hover
+	{
+		border: 2px solid black;
+		cursor: default;
+	}
+	#barra_3
+	{
+		margin-left: 70%;
+		color: gold;
+	}
+	#cuerpo
+	{
+		display: flex;
+		height: 90%;
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: row;
+	}
+	#menu
+	{
+		display: flex;
+		height: 100%;
+		width: 20%;
+		flex-direction: column;
+		background-color: #37A82E;
+	}
+	#filtro
+	{
+		height: 15%;
+		width: 100%;
+	}
+	#eventlist
+	{
+		overflow: scroll;
+		overflow-x: hidden;
+		overflow-y: auto;
+		height: 85%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#menuevent
+	{
+		background-color: #37A82E;
+		font-size: 19px;
+		border: 2px solid darkred;
+		margin: auto;
+		margin-top: 10px;
+		padding: 4px;
+		text-align: left;
+		width: 100%;
+		min-width: 115px;
+	}
+	#menuevent:hover
+	{
+		background-color: #8FF087;
+		cursor: default;
+		border: 3px solid darkred;
+	}
+	#eventfin
+	{
+		background-color: #216C1C;
+		font-size: 19px;
+		border: 2px solid darkred;
+		margin: auto;
+		margin-top: 10px;
+		padding: 4px;
+		text-align: left;
+		width: 100%;
+		min-width: 115px;
+	}
+	#eventfin:hover
+	{
+		cursor: default;
+	}
+	#filtrotable
+	{
+		width: 100%;	
+		border-bottom: 1px solid black;
+	}
+	#filtrotable td
+	{
+		width: 50%;
+		text-align: center;
+	}
+	#userdisplayer
+	{
+		border: 1px solid black;
+		height: 4%;
+		width: 30%;
+		overflow: scroll;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	
